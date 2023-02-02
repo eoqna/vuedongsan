@@ -14,7 +14,7 @@
 
     <div 
       v-for="room in rooms" 
-      :key="room.id"
+      :key="room.id" 
     >
       <img :src="room.image" class="room-img"/>
       <h4>{{ room.title }}</h4>
